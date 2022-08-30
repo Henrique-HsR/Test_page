@@ -248,8 +248,33 @@ footer p {
 
 /*Responsive*/
 @media screen and (max-width:460px){
+    h1, h3.large {
+        font-size: 1.8rem;
+    }
+
+    h2, p.large {
+        font-size: 1rem;
+    }
+
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
     .btn {
         padding: 1rem 2.5rem;
+    }
+
+    .container.small {
+        width: 100%;
+    }
+
+    #main-header, section {
+        padding: 2rem 0;
+    }
+
+    #main-header> .container{
+        width: 98%;
     }
 }
 
@@ -273,9 +298,7 @@ footer p {
     #main-header, section {
         padding: 6rem 0;
     }
-    .btn {
 
-    }
     footer {
         padding: 2.5rem 0;
     }
