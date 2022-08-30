@@ -247,6 +247,12 @@ footer p {
 }
 
 /*Responsive*/
+@media screen and (max-width:460px){
+    .btn {
+        padding: 1rem 2.5rem;
+    }
+}
+
 @media screen and (max-width:600px){
     h1, h3.large {
         font-size: 2.3rem;
@@ -267,7 +273,9 @@ footer p {
     #main-header, section {
         padding: 6rem 0;
     }
+    .btn {
 
+    }
     footer {
         padding: 2.5rem 0;
     }
