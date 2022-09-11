@@ -166,6 +166,11 @@ img {
     margin-bottom: 1.3rem;
 }
 
+.gallery div:hover {
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+}
+
 /*Contact*/
 .dark {
     background-color: rgb(60, 58, 71);
